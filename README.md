@@ -8,5 +8,6 @@ Features
 - 🚀 Quick access to frequently visited websites.
 - 🌐 Customizable links for various categories.
 - 📦 Easy setup and configuration.
+- 🌐 Seamless Google Integration.
 
 ![HomePage](https://github.com/zachb1311/CMDStartPage/assets/68793343/b4344a5f-4af3-408f-af1b-f0184292fc5b)
