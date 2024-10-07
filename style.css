@@ -1,0 +1,140 @@
+body {
+	--primaryColor: #282a36;
+	--secondaryColor: #ffffff;
+	--accent: #bd93f9;
+}
+
+html {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100%;
+}
+
+body {
+	background-color: var(--primaryColor);
+	color: var(--secondaryColor);
+	font-family: 'Fira Code';
+	font-size: 16px;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+	min-height: 30ch;
+	min-width: 50vw;
+	padding: 2em;
+}
+
+span {
+	color: var(--accent);
+}
+
+nav {
+	column-gap: 2em;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li:first-child {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+li:not(:first-child) {
+	font-size: 14px;
+}
+
+li:last-child {
+	margin: 0 0 1em;
+}
+
+a:focus,
+a:hover {
+	font-weight: bold;
+}
+
+#s,
+#social > li > a:hover {
+	color: var(--accent);
+}
+#w,
+#watch > li > a:hover {
+	color: var(--accent);
+}
+
+#se,
+#search > li > a:hover {
+	color: var(--accent);
+}
+
+#to,
+#torrenting > li > a:hover {
+	color: var(--accent);
+}
+
+#t,
+#tech > li > a:hover {
+	color: var(--accent);
+}
+
+#g,
+#google > li > a:hover {
+	color: var(--accent);
+}
+
+a:focus,
+a:hover {
+	color: var(--accent);
+}
+
+a:visited,
+a:link,
+a:active {
+	color: var(--secondaryColor);
+	height: auto;
+	width: auto;
+	text-decoration: none;
+	line-height: 2;
+}
+
+input {
+	color: var(--secondaryColor);
+	width: 700px;
+	font-size: 16px;
+	font-family: 'Fira Code';
+	border: none;
+	outline: none;
+	padding-bottom: 30px;
+	background-color: transparent;
+}
+
+/* Removes the X button from the end of inputs */
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+	display: none;
+}
+
+@media (max-width: 1000px) {
+	input {
+		width: 500px;
+	}
+}
+
+@media (max-width: 785px) {
+	input {
+		width: 300px;
+	}
+}
+
+@media (max-width: 585px) {
+	input {
+		width: fit-content;
+	}
+}
