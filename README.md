@@ -13,3 +13,5 @@ Features
 - 🌐 Customizable links for various categories.
 - 📦 Easy setup and configuration.
 - 🌐 Seamless Google Integration.
+
+![StartPage](https://github.com/user-attachments/assets/253a9b89-ac0a-4976-83e6-7cd2322e5aaa)
